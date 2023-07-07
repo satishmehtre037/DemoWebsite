@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.nav {
+    height: 61px;
+    background-color: rgb(12, 12, 73);
+    color: white;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+.nav ul li {
+    display: inline;
+    display: inline-block;
+    margin: 10px 15px 20px 15px;
+    padding: 0 15px 0 230px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    display: inline;
+    font-size: 25px;
+    color: white;
+    list-style: circle;
+}
+
+.right {
+    background-color: rgb(4, 4, 49);
+    height: 50vh;
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+}
+
+.left {
+    background-color: rgb(16, 85, 112);
+    height: 50vh;
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+    
+}
+
+footer {
+    background-color: rgb(12, 12, 73);
+    color: white;
+    height: 30px;
+    font-size: px;
+    padding: 34px;
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+/* .left p{
+    
+        animation: color-animation 4s linear infinite;
+      }
+      
+      .title-word-1 {
+        --color-1: #DF8453;
+        --color-2: #3D8DAE;
+        --color-3: #E4A9A8;
+      }
+       --color-2: #E4A9A8;
+        --color-3: #ACCFCB;
+      }
+      
+      .title-word-4 {
+        --color-1: #3D8DAE;
+        --color-2: #DF8453;
+        --color-3: #E4A9A8;
+      }
+      
+      @keyframes color-animation {
+        0%    {color: var(--color-1)}
+        32%   {color: var(--color-1)}
+        33%   {color: var(--color-2)}
+        65%   {color: var(--color-2)}
+        66%   {color: var(--color-3)}
+        99%   {color: var(--color-3)}
+        100%  {color: var(--color-1)}
+      }
+      
+      /* Here are just some visual styles. 🖌 */
+      
+      /* .container {
+        display: grid;
+        place-items: center;  
+        text-align: center;
+        height: 100vh
+      }
+      
+      .title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 8.5vw;
+        text-transform: uppercase;
+      }
+
+      .title-word-2 {
+        --color-1: #DBAD4A;
+        --color-2: #ACCFCB;
+        --color-3: #17494D;
+      }
+      
+      .title-word-3 {
+        --color-1: #ACCFCB;
+        */ 
